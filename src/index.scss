@@ -15,3 +15,10 @@
 .bx--content {
   padding: 0;
 }
+
+$feature-flags: (
+  components-x: true,
+  breaking-changes-x: true,
+  grid: true,
+  ui-shell: true,
+);

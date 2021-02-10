@@ -1,13 +1,6 @@
 import React from 'react';
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  Button,
-  Tabs,
-  Tab,
-} from 'carbon-components-react';
-import ThreatsTable from '../Threats/ThreatsTable';
-const LandingPage = () => {
+import ThreatsTable from './ThreatsTable';
+const ThreatsPage = () => {
   const headers = [
     {
       key: 'name',
@@ -34,6 +27,7 @@ const LandingPage = () => {
       header: 'Links',
     },
   ];
+
   const rows = [
     {
       id: '1',
@@ -75,4 +69,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default ThreatsPage;
